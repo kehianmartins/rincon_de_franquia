@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: rgb(15, 61, 15)
+}
+h3 {
+    color: green;
+
+}
+li a {
+	text-decoration: none;
+}
+nav {
+  background-color: rgb(61, 187, 61); 
+}
+
+.menu  {
+  list-style-type: none;
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(61, 187, 61) 
+}
+
+.menu li {
+  margin: 5px; 
+ 
+}
+.menu a {
+ 
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold;
+  padding: 15px 20px; 
+  display: block; 
+}
+
+.menu a:hover {
+  background-color: rgb(194, 194, 194); 
+}
+  
