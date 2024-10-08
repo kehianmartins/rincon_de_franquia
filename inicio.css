@@ -1,17 +1,44 @@
-body{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  box-sizing: border-box;
 }
-h1 {
+
+#lema {
+  text-align: center;
+
+}
+h2{
+  color: green;
+}
+
+
+
+#ubicaciones {
+  text-align: center;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(188, 250, 176, 0.562); /* Fondo rojo semitransparente */
+  mix-blend-mode: multiply; /* Mezcla con el fondo */
+  color: black; /* Color de texto */
+}
+
+h1,h2 {
     color: rgb(15, 61, 15)
 }
+
 h3 {
     color: green;
 
 }
+
+
+
 li a {
 	text-decoration: none;
 }
+
 nav {
   background-color: rgb(61, 187, 61); 
 }
@@ -25,11 +52,10 @@ nav {
 }
 
 .menu li {
-  margin: 5px; 
- 
+  margin: 5px;
 }
+
 .menu a {
- 
   text-decoration: none; 
   color: white; 
   font-weight: bold;
@@ -40,4 +66,23 @@ nav {
 .menu a:hover {
   background-color: rgb(194, 194, 194); 
 }
-  
+
+/* Articulos*/
+#articulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+#articulos article {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#articulos #fecha {
+  height: 50px;
+}
+
